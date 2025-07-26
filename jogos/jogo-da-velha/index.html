@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="game-area">
+        <h1>Jogo da Velha</h1>
+
+        <div id="game-setup">
+            <h2>Escolha seu símbolo:</h2>
+            <div class="choice-buttons">
+                <button id="chooseX" class="symbol-choice">X</button>
+                <button id="chooseO" class="symbol-choice">O</button>
+            </div>
+            <h2>Escolha o modo de jogo:</h2>
+            <div class="choice-buttons">
+                <button id="oneVone" class="mode-choice">1 vs 1</button>
+                <button id="oneVpc" class="mode-choice">1 vs Computador</button>
+            </div>
+        </div>
+
+        <div id="board" class="board hidden">
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+        </div>
+
+        <div id="winningMessage" class="winning-message">
+            <div data-winning-message-text></div>
+            <button id="restartButton">Jogar Novamente</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

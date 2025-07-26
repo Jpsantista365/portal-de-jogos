@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campo Minado</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-area">
+        <h1>Campo Minado</h1>
+
+        <div id="difficulty-setup">
+            <h2>Escolha a dificuldade:</h2>
+            <div class="choice-buttons">
+                <button class="difficulty-choice" data-bombs="10">Fácil (10 Minas)</button>
+                <button class="difficulty-choice" data-bombs="15">Médio (15 Minas)</button>
+                <button class="difficulty-choice" data-bombs="20">Difícil (20 Minas)</button>
+            </div>
+        </div>
+
+        <div id="game-container" class="hidden">
+            <div class="info">Minas: <span id="mines-count">0</span></div>
+            <div id="grid" class="grid"></div>
+            <button id="reset-button">Escolher Dificuldade</button>
+            <div id="result" class="result"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

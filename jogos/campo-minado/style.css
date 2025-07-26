@@ -1,0 +1,110 @@
+body {
+    background-color: #111;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.game-area {
+    text-align: center;
+}
+
+h1 {
+    color: #e74c3c;
+}
+
+h2 {
+    color: #ecf0f1;
+    margin-bottom: 20px;
+}
+
+/* Estilos para a tela de seleção */
+.choice-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.difficulty-choice {
+    font-size: 1rem;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #34495e;
+    border: 2px solid #2c3e50;
+    color: #fff;
+    border-radius: 5px;
+    width: 200px;
+    transition: background-color 0.2s;
+}
+
+.difficulty-choice:hover {
+    background-color: #e74c3c;
+}
+
+/* Container do Jogo */
+.info {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(10, 30px);
+    grid-template-rows: repeat(10, 30px);
+    border: 2px solid #34495e;
+    margin: 0 auto;
+}
+
+.cell {
+    width: 30px;
+    height: 30px;
+    background-color: #7f8c8d;
+    border: 1px solid #95a5a6;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.cell.revealed {
+    background-color: #bdc3c7;
+    color: #000;
+}
+
+/* CORREÇÃO: A bomba só fica vermelha quando revelada */
+.cell.revealed.bomb {
+    background-color: #e74c3c;
+}
+
+.cell.flag::after {
+    content: '🚩';
+    font-size: 18px;
+}
+
+#reset-button {
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: #e74c3c;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.result {
+    margin-top: 15px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    height: 30px; /* Garante espaço para a mensagem */
+}
+
+/* Classe para ocultar elementos */
+.hidden {
+    display: none;
+}

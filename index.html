@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de Jogos Clássicos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Portal de Jogos Clássicos</h1>
+    </header>
+
+    <main id="main-content">
+        <div id="game-selection" class="visible">
+            <h2>Escolha um Jogo</h2>
+            <div class="game-list">
+                <button class="game-card" data-game="jogo-da-velha">Jogo da Velha</button>
+                <button class="game-card" data-game="campo-minado">Campo Minado</button>
+                <button class="game-card" data-game="forca">Forca</button>
+                <button class="game-card" data-game="memoria">Jogo da Memória</button>
+                <button class="game-card" data-game="snake">Snake</button>
+                <button class="game-card" data-game="pong">Pong</button>
+            </div>
+        </div>
+
+        <div id="game-container" class="hidden">
+            <button id="back-to-menu">Voltar ao Menu</button>
+            <div id="game-frame-container">
+                <iframe id="game-frame" src="" frameborder="0"></iframe>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por João Paulo 🧑🏽‍💻</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
