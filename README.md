@@ -9,9 +9,7 @@ Bem-vindo ao Portal de Jogos Clássicos! Este projeto é uma aplicação web de 
 
 ## 📸 Visualização
 
-*(Dica: Tire um screenshot da página principal do seu portal e substitua o link abaixo para que a imagem apareça aqui!)*
-
-[![Captura-de-tela-2025-07-28-110512.png](https://i.postimg.cc/5NvVCXHN/Captura-de-tela-2025-07-28-110512.png)](https://postimg.cc/9rWK3Ftv)
+[![Captura-de-tela-2025-07-28-111035.png](https://i.postimg.cc/WpkK9Qs5/Captura-de-tela-2025-07-28-111035.png)](https://postimg.cc/ThTC1NLb)
 
 ---
 
@@ -32,9 +30,9 @@ O portal oferece os seguintes jogos, cada um com suas próprias regras e desafio
 
 O projeto já está no ar! Você pode jogar agora mesmo acessando o link abaixo:
 
-**[➡️ Clique aqui para jogar!](URL_DO_SEU_SITE_AQUI)**
+**[➡️ Clique aqui para jogar!](https://portaldejogos.netlify.app/)**
 
-*(Lembre-se de substituir `URL_DO_SEU_SITE_AQUI` pelo seu link do GitHub Pages ou Netlify!)*
+*(Lembre-se de substituir `https://portaldejogos.netlify.app/` pelo seu link do GitHub Pages ou Netlify!)*
 
 ---
 
@@ -65,7 +63,3 @@ Se você quiser explorar o código ou fazer suas próprias modificações, siga 
 3.  **Abra o arquivo `index.html`** no seu navegador de preferência e comece a jogar!
 
 ---
-
-## 🤝 Agradecimentos
-
-Este projeto foi desenvolvido em uma colaboração interativa entre um usuário entusiasta e a inteligência artificial **Gemini**, da Google.
