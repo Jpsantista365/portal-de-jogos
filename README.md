@@ -32,8 +32,6 @@ O projeto já está no ar! Você pode jogar agora mesmo acessando o link abaixo:
 
 **[➡️ Clique aqui para jogar!](https://portaldejogos.netlify.app/)**
 
-*(Lembre-se de substituir `https://portaldejogos.netlify.app/` pelo seu link do GitHub Pages ou Netlify!)*
-
 ---
 
 ## 🛠️ Tecnologias Utilizadas
@@ -61,5 +59,3 @@ Se você quiser explorar o código ou fazer suas próprias modificações, siga 
     ```
 
 3.  **Abra o arquivo `index.html`** no seu navegador de preferência e comece a jogar!
-
----
