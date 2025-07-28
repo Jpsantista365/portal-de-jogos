@@ -11,7 +11,7 @@ Bem-vindo ao Portal de Jogos Clássicos! Este projeto é uma aplicação web de 
 
 *(Dica: Tire um screenshot da página principal do seu portal e substitua o link abaixo para que a imagem apareça aqui!)*
 
-![Screenshot do Portal de Jogos](https://i.imgur.com/L5E8C8N.png) 
+[![Captura-de-tela-2025-07-28-110512.png](https://i.postimg.cc/5NvVCXHN/Captura-de-tela-2025-07-28-110512.png)](https://postimg.cc/9rWK3Ftv)
 
 ---
 
